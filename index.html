@@ -21,7 +21,7 @@
   <body>
     <!-- Header Start -->
     <header
-      class="absolute left-0 top-0 z-10 flex w-full items-center bg-transparent"
+      class="absolute top-0 left-0 z-10 flex items-center w-full bg-transparent"
     >
       <div class="container">
         <div class="relative flex items-center justify-between">
@@ -36,16 +36,16 @@
               id="hamburger"
               name="hamburger"
               type="button"
-              class="absolute right-4 block lg:hidden"
+              class="absolute block right-4 lg:hidden"
             >
               <span
-                class="hamburger-line origin-top-left transition duration-300 ease-in-out"
+                class="transition duration-300 ease-in-out origin-top-left hamburger-line"
               ></span>
               <span
-                class="hamburger-line transition duration-300 ease-in-out"
+                class="transition duration-300 ease-in-out hamburger-line"
               ></span>
               <span
-                class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"
+                class="transition duration-300 ease-in-out origin-bottom-left hamburger-line"
               ></span>
             </button>
 
@@ -57,35 +57,35 @@
                 <li class="group">
                   <a
                     href="#home"
-                    class="group-hover:text- mx-8 flex py-2 text-base text-dark dark:text-white"
+                    class="flex py-2 mx-8 text-base group-hover:text- text-dark dark:text-white"
                     >Home</a
                   >
                 </li>
                 <li class="group">
                   <a
                     href="#about"
-                    class="group-hover:text- mx-8 flex py-2 text-base text-dark dark:text-white"
+                    class="flex py-2 mx-8 text-base group-hover:text- text-dark dark:text-white"
                     >About Me</a
                   >
                 </li>
                 <li class="group">
                   <a
                     href="#portfolio"
-                    class="group-hover:text- mx-8 flex py-2 text-base text-dark dark:text-white"
+                    class="flex py-2 mx-8 text-base group-hover:text- text-dark dark:text-white"
                     >Portfolio</a
                   >
                 </li>
                 <li class="group">
                   <a
                     href="#clients"
-                    class="group-hover:text- mx-8 flex py-2 text-base text-dark dark:text-white"
+                    class="flex py-2 mx-8 text-base group-hover:text- text-dark dark:text-white"
                     >Skills</a
                   >
                 </li>
                 <li class="group">
                   <a
                     href="#blog"
-                    class="group-hover:text- mx-8 flex py-2 text-base text-dark dark:text-white"
+                    class="flex py-2 mx-8 text-base group-hover:text- text-dark dark:text-white"
                     >Interest</a
                   >
                 </li>
@@ -97,7 +97,7 @@
                   >
                 </li> -->
 
-                <li class="mt-3 flex items-center pl-8 lg:mt-0">
+                <li class="flex items-center pl-8 mt-3 lg:mt-0">
                   <div class="flex">
                     <span class="mr-2 text-sm text-slate-500">Light</span>
 
@@ -105,10 +105,10 @@
 
                     <label for="dark-toggle">
                       <div
-                        class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1"
+                        class="flex items-center h-5 p-1 rounded-full cursor-pointer w-9 bg-slate-500"
                       >
                         <div
-                          class="toggle-circle h-4 w-4 rounded-full bg-white transition duration-300 ease-in-out"
+                          class="w-4 h-4 transition duration-300 ease-in-out bg-white rounded-full toggle-circle"
                         ></div>
                       </div>
                     </label>
@@ -128,13 +128,13 @@
     <section id="home" class="pt-36 dark:bg-dark">
       <div class="container">
         <div class="flex flex-wrap">
-          <div class="w-full self-center px-4 lg:w-1/2">
+          <div class="self-center w-full px-4 lg:w-1/2">
             <h1
-              class="md:text-xl- text-base font-semibold text-sky-500 lg:text-2xl"
+              class="text-base font-semibold md:text-xl- text-sky-500 lg:text-2xl"
             >
               Welcome to My Web
               <span
-                class="mt-2 block text-4xl font-bold text-gray-900 dark:text-white lg:text-5xl"
+                class="block mt-2 text-4xl font-bold text-gray-900 dark:text-white lg:text-5xl"
                 >Rizqi Ramadhanianto</span
               >
             </h1>
@@ -155,22 +155,22 @@
 
             <a
               href="https://wa.me/6282298238070"
-              class="rounded-full bg-primary px-10 py-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:opacity-70 hover:shadow-lg"
+              class="px-10 py-3 text-base font-semibold text-white transition duration-300 ease-in-out rounded-full bg-primary hover:opacity-70 hover:shadow-lg"
               >Contact Me</a
             >
           </div>
           <br />
-          <div class="w-full self-end px-4 lg:w-1/2">
+          <div class="self-end w-full px-4 lg:w-1/2">
             <div class="relative mt-10 lg:right-0 lg:mt-9">
               <img
                 src="dist/img/PPKIKI.png"
                 width="400"
                 height="300"
                 alt="Rizqi"
-                class="relative z-10 mx-auto max-w-full"
+                class="relative z-10 max-w-full mx-auto"
               />
 
-              <span class="absolute bottom-0 left-1/2 -translate-x-1/2">
+              <span class="absolute bottom-0 -translate-x-1/2 left-1/2">
                 <svg
                   width="350"
                   height="350"
@@ -195,16 +195,16 @@
     <section id="about" class="pb-32 pt-36 dark:bg-dark">
       <div class="container">
         <div class="flex flex-wrap">
-          <div class="mb-10 w-full px-4 lg:w-1/2">
+          <div class="w-full px-4 mb-10 lg:w-1/2">
             <h2 class="mb-3 text-lg font-bold uppercase text-primary">
               About Me
             </h2>
             <h4
-              class="mb-4 max-w-md text-3xl font-bold text-dark dark:text-white lg:text-4xl"
+              class="max-w-md mb-4 text-3xl font-bold text-dark dark:text-white lg:text-4xl"
             >
               Web Development Fullstack
             </h4>
-            <p class="mb-3 max-w-xl text-base font-medium text-slate-500">
+            <p class="max-w-xl mb-3 text-base font-medium text-slate-500">
               I am Fullstack Programming has an interest in IT Web Development
               Frontend and Backend and digital Marketing. open to opportunities
               in the IT field, especially Web Development (Fullstack). And has
@@ -229,7 +229,7 @@
               <a
                 href="https://www.youtube.com/@rizqiramadhani135"
                 target="_blank"
-                class="hover: mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-primary border-slate-400 text-slate-300 hover:bg-primary hover:text-white"
+                class="flex items-center justify-center mr-3 border rounded-full hover: h-9 w-9 border-primary border-slate-400 text-slate-300 hover:bg-primary hover:text-white"
                 ><svg
                   role="img"
                   width="25"
@@ -247,7 +247,7 @@
               <a
                 href="https://www.instagram.com/rizqirmdhani/"
                 target="_blank"
-                class="hover: mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-primary border-slate-400 text-slate-400 hover:bg-primary hover:text-white"
+                class="flex items-center justify-center mr-3 border rounded-full hover: h-9 w-9 border-primary border-slate-400 text-slate-400 hover:bg-primary hover:text-white"
                 ><svg
                   role="img"
                   width="20"
@@ -265,7 +265,7 @@
               <a
                 href="https://github.com/ramarizqiunstopable"
                 target="_blank"
-                class="hover: mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-primary border-slate-400 text-slate-400 hover:bg-primary hover:text-white"
+                class="flex items-center justify-center mr-3 border rounded-full hover: h-9 w-9 border-primary border-slate-400 text-slate-400 hover:bg-primary hover:text-white"
                 ><svg
                   role="img"
                   width="20"
@@ -283,7 +283,7 @@
               <a
                 href="https://www.linkedin.com/in/rizqi-ramadhanianto-b09558a8/"
                 target="_blank"
-                class="hover: mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-primary border-slate-400 text-slate-400 hover:bg-primary hover:text-white"
+                class="flex items-center justify-center mr-3 border rounded-full hover: h-9 w-9 border-primary border-slate-400 text-slate-400 hover:bg-primary hover:text-white"
                 ><svg
                   role="img"
                   width="25"
@@ -304,88 +304,121 @@
     <!-- akhir About me -->
 
     <!-- portfolio section awal -->
-    <section id="portfolio" class="bg-gray-200 pb-16 pt-36 dark:bg-slate-800">
+    <section id="portfolio" class="pb-16 bg-gray-200 pt-36 dark:bg-slate-800">
       <div class="container">
         <div class="w-full p-4">
-          <div class="mx-auto mb-16 max-w-xl text-center">
+          <div class="max-w-xl mx-auto mb-16 text-center">
             <h4 class="mb-2 text-lg font-semibold text-primary">Portfolio</h4>
             <h2
               class="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl lg:text-5xl"
             >
               My Projects
             </h2>
-            <p class="text-md font-medium text-slate-500">
+            <p class="font-medium text-md text-slate-500">
               Here is a web development project that I have made as a reference
               and consideration for you
             </p>
           </div>
         </div>
 
-        <div class="xl: mx-auto flex w-10/12 w-full flex-wrap justify-center px-4">
-          <div class="mb-12 px-4 md:w-1/2">
+        <div
+          class="flex flex-wrap justify-center w-10/12 w-full px-4 mx-auto xl:"
+        >
+          <div class="px-4 mb-12 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
               <img src="dist/img/sayo.jpg" alt="landing page" width="w-full" />
             </div>
-            <a href="https://apps.ssayomart.com/" class="text-decoration-none">
-              <h3 class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white">
+            <a
+              href="https://apps.ssayomart.com/"
+              target="_blank"
+              class="text-decoration-none"
+            >
+              <h3
+                class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white"
+              >
                 E Commerce Ssayomart Apps
               </h3>
             </a>
-        <p class="text-base font-medium text-slate-500">
-          Creating a food E-commerce application and Fullstack Web
-          Development using MongoDB, Express Js, React Js, Next Js, Node Js,
-          Styling React Bootstrap
-        </p>
-        </div>
-        <div class="mb-12 px-4 md:w-1/2">
-          <div class="overflow-hidden rounded-md shadow-md">
-            <img src="dist/img/boga.jpg" alt="landing page" width="w-full" />
-          </div>
-          <a href="https://boga.vercel.app/" class="text-decoration-none">
-            <h3 class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white">
-              Company Profile Boga Etherna
-            </h3>
-          </a>
-        
-          <p class="text-base font-medium text-slate-500">
-            Boga
-            Eterna Sentosa
-            Indonesia's Top Destination for Authentic Korean, Japanese, and Chinese Food Imports Bootstrap
+            <p class="text-base font-medium text-slate-500">
+              Creating a food E-commerce application and Fullstack Web
+              Development using MongoDB, Express Js, React Js, Next Js, Node Js,
+              Styling React Bootstrap
             </p>
-        </div>
-        <div class="mb-12 px-4 md:w-1/2">
-              <div class="overflow-hidden rounded-md shadow-md">
-                <img src="dist/img/sayocop.jpg" alt="landing page" width="w-full" />
-              </div>
-              <a href="https://web.ssayomart.com/" class="text-decoration-none">
-                <h3 class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white">
-                  Company Profile Ssayomart
-                </h3>
-              </a>
-            
-              <p class="text-base font-medium text-slate-500">
-                Creating a food E-commerce application and Fullstack Web
-                Development using MongoDB, Express Js, React Js, Next Js, Node Js,
-                Styling React Bootstrap
-              </p>
-        </div>
-        <div class="mb-12 px-4 md:w-1/2">
-              <div class="overflow-hidden rounded-md shadow-md">
-                <img src="dist/img/app-main.png" alt="landing page" width="w-full" />
+          </div>
+          <div class="px-4 mb-12 md:w-1/2">
+            <div class="overflow-hidden rounded-md shadow-md">
+              <img src="dist/img/boga.jpg" alt="landing page" width="w-full" />
             </div>
-            <a href="https://github.com/rizqiramadhani1101/project-frontend.git" class="text-decoration-none">
-              <h3 class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white">
-                E Commerce Food Store
+            <a
+              href="https://boga.vercel.app/"
+              target="_blank"
+              class="text-decoration-none"
+            >
+              <h3
+                class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white"
+              >
+                Company Profile Boga Etherna
               </h3>
-              </a>
+            </a>
+
+            <p class="text-base font-medium text-slate-500">
+              Boga Eterna Sentosa Indonesia's Top Destination for Authentic
+              Korean, Japanese, and Chinese Food Imports Bootstrap
+            </p>
+          </div>
+          <div class="px-4 mb-12 md:w-1/2">
+            <div class="overflow-hidden rounded-md shadow-md">
+              <img
+                src="dist/img/sayocop.jpg"
+                alt="landing page"
+                width="w-full"
+              />
+            </div>
+            <a
+              href="https://web.ssayomart.com/"
+              target="_blank"
+              class="text-decoration-none"
+            >
+              <h3
+                class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white"
+              >
+                Company Profile Ssayomart
+              </h3>
+            </a>
 
             <p class="text-base font-medium text-slate-500">
               Creating a food E-commerce application and Fullstack Web
               Development using MongoDB, Express Js, React Js, Next Js, Node Js,
               Styling React Bootstrap
             </p>
-        </div>
-        <div class="mb-12 px-4 md:w-1/2">
+          </div>
+          <div class="px-4 mb-12 md:w-1/2">
+            <div class="overflow-hidden rounded-md shadow-md">
+              <img
+                src="dist/img/app-main.png"
+                alt="landing page"
+                width="w-full"
+              />
+            </div>
+            <a
+              href="https://github.com/ramarizqiunstopable/ecommerce-food-store"
+              target="_blank"
+              class="text-decoration-none"
+            >
+              <h3
+                class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white"
+              >
+                E Commerce Food Store
+              </h3>
+            </a>
+
+            <p class="text-base font-medium text-slate-500">
+              Creating a food E-commerce application and Fullstack Web
+              Development using MongoDB, Express Js, React Js, Next Js, Node Js,
+              Styling React Bootstrap
+            </p>
+          </div>
+          <div class="px-4 mb-12 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
               <img
                 src="dist/img/app-store5.png"
@@ -394,10 +427,11 @@
               />
             </div>
             <a
-              href="https://github.com/rizqiramadhani1101/project-frontend.git"
+              href="https://github.com/ramarizqiunstopable/ecommerce-food-store"
+              target="_blank"
               class="text-decoration-none"
               ><h3
-                class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white"
+                class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white"
               >
                 E Commerce Food Store
               </h3></a
@@ -407,8 +441,8 @@
               Creating a food E-commerce application and Fullstack Web
               Development by Using search and filter features
             </p>
-        </div>
-        <div class="mb-12 px-4 md:w-1/2">
+          </div>
+          <div class="px-4 mb-12 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
               <img
                 src="dist/img/app-store6.png"
@@ -417,10 +451,11 @@
               />
             </div>
             <a
-              href="https://github.com/rizqiramadhani1101/project-backend.git"
+              href="https://github.com/ramarizqiunstopable/ecommerce-food-store"
+              target="_blank"
               class="text-decoration-none"
               ><h3
-                class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white"
+                class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white"
               >
                 E Commerce Food Store
               </h3></a
@@ -431,9 +466,9 @@
               menu after being selected by the user and can be changed the order
               quantity
             </p>
-        </div>
+          </div>
 
-          <div class="mb-12 px-4 md:w-1/2">
+          <div class="px-4 mb-12 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
               <img
                 src="dist/img/app-store7.png"
@@ -442,10 +477,11 @@
               />
             </div>
             <a
-              href="https://github.com/rizqiramadhani1101/project-backend.git"
+              href="https://github.com/ramarizqiunstopable/ecommerce-food-store"
+              target="_blank"
               class="text-decoration-none"
               ><h3
-                class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white"
+                class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white"
               >
                 E Commerce Food Store
               </h3></a
@@ -456,15 +492,16 @@
               data that has been ordered
             </p>
           </div>
-          <div class="mb-12 px-4 md:w-1/2">
+          <div class="px-4 mb-12 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
               <img src="dist/img/ft.png" alt="landing page" width="w-full" />
             </div>
             <a
               href="https://slicing-silk.vercel.app/"
+              target="_blank"
               class="text-decoration-none"
               ><h3
-                class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white"
+                class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white"
               >
                 Slicing UI Furniture App Store
               </h3></a
@@ -476,15 +513,16 @@
               SwiperJS, Jquery, and Box Icons tools.
             </p>
           </div>
-          <div class="mb-12 px-4 md:w-1/2">
+          <div class="px-4 mb-12 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
               <img src="dist/img/ft2.png" alt="landing page" width="w-full" />
             </div>
             <a
               href="https://slicing-silk.vercel.app/"
+              target="_blank"
               class="text-decoration-none"
               ><h3
-                class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white"
+                class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white"
               >
                 Slicing UI Furniture App Store
               </h3></a
@@ -497,7 +535,7 @@
             </p>
           </div>
 
-          <div class="mb-12 px-4 md:w-1/2">
+          <div class="px-4 mb-12 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
               <img
                 src="dist/img/creating.jpg"
@@ -507,7 +545,7 @@
             </div>
             <a href="#web-loker"
               ><h3
-                class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white"
+                class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white"
               >
                 UI Desain Creating.in
               </h3></a
@@ -517,7 +555,7 @@
               UI of home menu and about us Tools that I use FIgma
             </p>
           </div>
-          <div class="mb-12 px-4 md:w-1/2">
+          <div class="px-4 mb-12 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
               <img
                 src="dist/img/creating2.jpg"
@@ -527,7 +565,7 @@
             </div>
             <a href="#e-commerce"
               ><h3
-                class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white"
+                class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white"
               >
                 UI Desain Creating.in
               </h3></a
@@ -537,13 +575,13 @@
               UI menu Project, gallery, and Contact Us Tools that I use FIgma
             </p>
           </div>
-          <div class="mb-12 px-4 md:w-1/2">
+          <div class="px-4 mb-12 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
               <img src="dist/img/p1.png" alt="landing page" width="w-full" />
             </div>
-            <a href="https://skuy-phi.vercel.app/"
+            <a href="https://skuy-phi.vercel.app/" target="_blank"
               ><h3
-                class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white"
+                class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white"
               >
                 Landing page Skuy.com
               </h3></a
@@ -553,13 +591,13 @@
               Skuy.com reservation app landing page uses React Js and Bootstrap
             </p>
           </div>
-          <div class="mb-12 px-4 md:w-1/2">
+          <div class="px-4 mb-12 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
               <img src="dist/img/p2.png" alt="landing page" width="w-full" />
             </div>
-            <a href="https://skuy-phi.vercel.app/">
+            <a href="https://skuy-phi.vercel.app/" target="_blank">
               <h3
-                class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white"
+                class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white"
               >
                 Landing page Skuy.com
               </h3>
@@ -571,13 +609,13 @@
             </p>
           </div>
 
-          <div class="mb-12 px-4 md:w-1/2">
+          <div class="px-4 mb-12 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
               <img src="dist/img/pp.png" alt="landing page" width="w-full" />
             </div>
-            <a href="https://portofolio-app-chi.vercel.app/"
+            <a href="https://portofolio-app-chi.vercel.app/" target="_blank"
               ><h3
-                class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white"
+                class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white"
               >
                 Portfolio (web Landing Page)
               </h3></a
@@ -588,13 +626,13 @@
               Programming course work
             </p>
           </div>
-          <div class="mb-12 px-4 md:w-1/2">
+          <div class="px-4 mb-12 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
               <img src="dist/img/pp2.png" alt="landing page" width="w-full" />
             </div>
-            <a href="https://portofolio-app-chi.vercel.app/"
+            <a href="https://portofolio-app-chi.vercel.app/" target="_blank"
               ><h3
-                class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white"
+                class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white"
               >
                 Portfolio (web Landing Page)
               </h3></a
@@ -605,13 +643,15 @@
               Programming course work
             </p>
           </div>
-          <div class="mb-12 px-4 md:w-1/2">
+          <div class="px-4 mb-12 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
               <img src="dist/img/idm.jpg" alt="landing page" width="w-full" />
             </div>
-            <a href="https://github.com/ramarizqiunstopable/sistemsales.git"
+            <a
+              href="https://github.com/ramarizqiunstopable/sistemsales.git"
+              target="_blank"
               ><h3
-                class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white"
+                class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white"
               >
                 Store Sales Application System Web
               </h3></a
@@ -623,13 +663,15 @@
               Tangerang Branch office with 600 Stores
             </p>
           </div>
-          <div class="mb-12 px-4 md:w-1/2">
+          <div class="px-4 mb-12 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
               <img src="dist/img/idm2.jpg" alt="landing page" width="w-full" />
             </div>
-            <a href="https://github.com/ramarizqiunstopable/sistemsales.git"
+            <a
+              href="https://github.com/ramarizqiunstopable/sistemsales.git"
+              target="_blank"
               ><h3
-                class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white"
+                class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white"
               >
                 Store Sales Application System Web
               </h3></a
@@ -641,7 +683,7 @@
               Branch office with 600 stores.
             </p>
           </div>
-          <div class="mb-12 px-4 md:w-1/2">
+          <div class="px-4 mb-12 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
               <img
                 src="dist/img/app-loker.png"
@@ -649,9 +691,9 @@
                 width="w-full"
               />
             </div>
-            <a href="https://lokerapp.vercel.app/"
+            <a href="https://lokerapp.vercel.app/" target="_blank"
               ><h3
-                class="mb-3 mt-5 text-xl font-semibold text-dark dark:text-white"
+                class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white"
               >
                 job application website
               </h3></a
@@ -668,11 +710,11 @@
     <!-- portfolio section akhir -->
 
     <!-- client section start -->
-    <section id="clients" class="bg-sky-950 pb-32 pt-36 dark:bg-slate-400">
+    <section id="clients" class="pb-32 bg-sky-950 pt-36 dark:bg-slate-400">
       <div class="container">
         <div class="w-full px-4">
           <div class="w-full p-4">
-            <div class="mx-auto mb-16 max-w-xl text-center">
+            <div class="max-w-xl mx-auto mb-16 text-center">
               <h4
                 class="mb-2 text-lg font-semibold text-primary dark:text-blue-900"
               >
@@ -683,7 +725,7 @@
               >
                 Technical Skills
               </h2>
-              <p class="text-md font-medium text-slate-500 md:text-lg">
+              <p class="font-medium text-md text-slate-500 md:text-lg">
                 I have mastered various Web Development tools
               </p>
             </div>
@@ -704,7 +746,7 @@
             >
               <img src="dist/img/client/expressjs.png" alt="google" />
               <h4
-                class="mb-2 text-center text-lg font-semibold text-primary dark:text-blue-900"
+                class="mb-2 text-lg font-semibold text-center text-primary dark:text-blue-900"
               >
                 ExpressJs
               </h4>
@@ -721,7 +763,7 @@
             >
               <img src="dist/img/client/nextjs.png" alt="Astra" />
               <h4
-                class="mb-2 text-center text-lg font-semibold text-primary dark:text-blue-900"
+                class="mb-2 text-lg font-semibold text-center text-primary dark:text-blue-900"
               >
                 NextJs
               </h4>
@@ -732,7 +774,7 @@
             >
               <img src="dist/img/client/nodejs.png" alt="google" />
               <h4
-                class="mb-2 text-center text-lg font-semibold text-primary dark:text-blue-900"
+                class="mb-2 text-lg font-semibold text-center text-primary dark:text-blue-900"
               >
                 NodeJs
               </h4>
@@ -743,7 +785,7 @@
             >
               <img src="dist/img/client/mysql.png" alt="google" />
               <h4
-                class="mb-2 text-center text-lg font-semibold text-primary dark:text-blue-900"
+                class="mb-2 text-lg font-semibold text-center text-primary dark:text-blue-900"
               >
                 Mysql
               </h4>
@@ -754,7 +796,7 @@
             >
               <img src="dist/img/client/git.png" alt="google" />
               <h4
-                class="mb-2 text-center text-lg font-semibold text-primary dark:text-blue-900"
+                class="mb-2 text-lg font-semibold text-center text-primary dark:text-blue-900"
               >
                 Git
               </h4>
@@ -765,7 +807,7 @@
             >
               <img src="dist/img/client/redux.png" alt="google" />
               <h4
-                class="mb-2 text-center text-lg font-semibold text-primary dark:text-blue-900"
+                class="mb-2 text-lg font-semibold text-center text-primary dark:text-blue-900"
               >
                 Redux
               </h4>
@@ -777,7 +819,7 @@
             >
               <img src="dist/img/client/bt.png" alt="google" />
               <h4
-                class="mb-2 text-center text-lg font-semibold text-primary dark:text-blue-900"
+                class="mb-2 text-lg font-semibold text-center text-primary dark:text-blue-900"
               >
                 Bootstrap
               </h4>
@@ -807,17 +849,17 @@
     <!-- client section end -->
 
     <!-- blog start -->
-    <div class="section bg-slate-300 pb-32 pt-36 dark:bg-dark" id="blog">
+    <div class="pb-32 section bg-slate-300 pt-36 dark:bg-dark" id="blog">
       <div class="container">
         <div class="w-full px-4">
-          <div class="mx-auto mb-16 max-w-xl text-center">
+          <div class="max-w-xl mx-auto mb-16 text-center">
             <h4 class="mb-2 text-lg font-semibold text-primary">Interest</h4>
             <h2
               class="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl lg:text-5xl"
             >
               My interest
             </h2>
-            <p class="text-md font-medium text-slate-500">
+            <p class="font-medium text-md text-slate-500">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit,
               voluptatibus sequi! Autem quis repellat consectetur.
             </p>
@@ -827,7 +869,7 @@
         <div class="flex flex-wrap">
           <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
             <div
-              class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg dark:bg-slate-800"
+              class="mb-10 overflow-hidden bg-white shadow-lg rounded-xl dark:bg-slate-800"
             >
               <img
                 src="http://source.unsplash.com/360x200?programming"
@@ -839,7 +881,7 @@
                 <h3>
                   <a
                     href="#"
-                    class="mb-3 block truncate text-xl font-semibold text-dark hover:text-primary dark:text-white"
+                    class="block mb-3 text-xl font-semibold truncate text-dark hover:text-primary dark:text-white"
                     >Tips for learning Web Dev</a
                   >
                 </h3>
@@ -850,7 +892,7 @@
                 </p>
                 <a
                   href="#"
-                  class="rounded-lg bg-primary px-4 py-3 text-sm font-medium text-white hover:opacity-70"
+                  class="px-4 py-3 text-sm font-medium text-white rounded-lg bg-primary hover:opacity-70"
                   >Read more</a
                 >
               </div>
@@ -858,7 +900,7 @@
           </div>
           <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
             <div
-              class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg dark:bg-slate-800"
+              class="mb-10 overflow-hidden bg-white shadow-lg rounded-xl dark:bg-slate-800"
             >
               <img
                 src="http://source.unsplash.com/360x200?web+Development "
@@ -870,7 +912,7 @@
                 <h3>
                   <a
                     href="#"
-                    class="mb-3 block truncate text-xl font-semibold text-dark hover:text-primary dark:text-white"
+                    class="block mb-3 text-xl font-semibold truncate text-dark hover:text-primary dark:text-white"
                     >Programmer learning tips</a
                   >
                 </h3>
@@ -882,7 +924,7 @@
                 </p>
                 <a
                   href="#"
-                  class="rounded-lg bg-primary px-4 py-3 text-sm font-medium text-white hover:opacity-70"
+                  class="px-4 py-3 text-sm font-medium text-white rounded-lg bg-primary hover:opacity-70"
                   >Read More</a
                 >
               </div>
@@ -890,7 +932,7 @@
           </div>
           <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
             <div
-              class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg dark:bg-slate-800"
+              class="mb-10 overflow-hidden bg-white shadow-lg rounded-xl dark:bg-slate-800"
             >
               <img
                 src="http://source.unsplash.com/360x200?designer"
@@ -902,7 +944,7 @@
                 <h3>
                   <a
                     href="#"
-                    class="mb-3 block truncate text-xl font-semibold text-dark hover:text-primary dark:text-white"
+                    class="block mb-3 text-xl font-semibold truncate text-dark hover:text-primary dark:text-white"
                     >Designer learning tips</a
                   >
                 </h3>
@@ -913,7 +955,7 @@
                 </p>
                 <a
                   href="#"
-                  class="rounded-lg bg-primary px-4 py-3 text-sm font-medium text-white hover:opacity-70"
+                  class="px-4 py-3 text-sm font-medium text-white rounded-lg bg-primary hover:opacity-70"
                   >Read More</a
                 >
               </div>
@@ -925,10 +967,10 @@
     <!-- blog end -->
 
     <!-- footer section start -->
-    <footer class="bg-sky-950 pb-12 pt-24">
+    <footer class="pt-24 pb-12 bg-sky-950">
       <div class="container">
         <div class="flex flex-wrap">
-          <div class="mb-12 w-full px-4 font-medium text-slate-300 md:w-1/3">
+          <div class="w-full px-4 mb-12 font-medium text-slate-300 md:w-1/3">
             <h2 class="mb-5 text-4xl font-bold text-white">Rizqi Ramadhani</h2>
             <h3 class="mb-2 text-2xl font-bold">Contact Me</h3>
             <p>(+62) 822-9823-8070</p>
@@ -936,7 +978,7 @@
             <p>Tangerang</p>
             <p>Indonesia</p>
           </div>
-          <div class="mb-12 w-full px-4 md:w-1/3">
+          <div class="w-full px-4 mb-12 md:w-1/3">
             <h3 class="mb-5 text-xl font-semibold text-white">
               Writing Categories
             </h3>
@@ -944,61 +986,61 @@
               <li>
                 <a
                   href="#"
-                  class="mb-3 inline-block text-base text-slate-400 hover:text-primary"
+                  class="inline-block mb-3 text-base text-slate-400 hover:text-primary"
                   >Web Development</a
                 >
               </li>
               <li>
                 <a
                   href="#"
-                  class="mb-3 inline-block text-base text-slate-400 hover:text-primary"
+                  class="inline-block mb-3 text-base text-slate-400 hover:text-primary"
                   >Programming</a
                 >
               </li>
               <li>
                 <a
                   href="#"
-                  class="mb-3 inline-block text-base text-slate-400 hover:text-primary"
+                  class="inline-block mb-3 text-base text-slate-400 hover:text-primary"
                   >Fullstack</a
                 >
               </li>
             </ul>
           </div>
-          <div class="mb-12 w-full px-4 md:w-1/3">
+          <div class="w-full px-4 mb-12 md:w-1/3">
             <h3 class="mb-5 text-xl font-semibold text-white">Links</h3>
             <ul>
               <li>
                 <a
                   href="#home"
-                  class="mb-3 inline-block text-base text-slate-400 hover:text-primary"
+                  class="inline-block mb-3 text-base text-slate-400 hover:text-primary"
                   >Home</a
                 >
               </li>
               <li>
                 <a
                   href="#about"
-                  class="mb-3 inline-block text-base text-slate-400 hover:text-primary"
+                  class="inline-block mb-3 text-base text-slate-400 hover:text-primary"
                   >About Me</a
                 >
               </li>
               <li>
                 <a
                   href="#portfolio"
-                  class="mb-3 inline-block text-base text-slate-400 hover:text-primary"
+                  class="inline-block mb-3 text-base text-slate-400 hover:text-primary"
                   >Portfolio</a
                 >
               </li>
               <li>
                 <a
                   href="#clients"
-                  class="mb-3 inline-block text-base text-slate-400 hover:text-primary"
+                  class="inline-block mb-3 text-base text-slate-400 hover:text-primary"
                   >Skills</a
                 >
               </li>
               <li>
                 <a
                   href="#blog"
-                  class="mb-3 inline-block text-base text-slate-400 hover:text-primary"
+                  class="inline-block mb-3 text-base text-slate-400 hover:text-primary"
                   >Interest</a
                 >
               </li>
@@ -1013,13 +1055,13 @@
           </div>
         </div>
 
-        <div class="w-full border-t border-slate-700 px-4 pt-10">
-          <div class="mb-5 flex items-center justify-center">
+        <div class="w-full px-4 pt-10 border-t border-slate-700">
+          <div class="flex items-center justify-center mb-5">
             <!-- youtube -->
             <a
               href="https://www.youtube.com/@rizqiramadhani135"
               target="_blank"
-              class="hover: mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-primary border-slate-400 text-slate-300 hover:bg-primary hover:text-white"
+              class="flex items-center justify-center mr-3 border rounded-full hover: h-9 w-9 border-primary border-slate-400 text-slate-300 hover:bg-primary hover:text-white"
               ><svg
                 role="img"
                 width="25"
@@ -1037,7 +1079,7 @@
             <a
               href="https://www.instagram.com/rizqirmdhani/"
               target="_blank"
-              class="hover: mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-primary border-slate-400 text-slate-400 hover:bg-primary hover:text-white"
+              class="flex items-center justify-center mr-3 border rounded-full hover: h-9 w-9 border-primary border-slate-400 text-slate-400 hover:bg-primary hover:text-white"
               ><svg
                 role="img"
                 width="20"
@@ -1055,7 +1097,7 @@
             <a
               href="https://github.com/ramarizqiunstopable"
               target="_blank"
-              class="hover: mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-primary border-slate-400 text-slate-400 hover:bg-primary hover:text-white"
+              class="flex items-center justify-center mr-3 border rounded-full hover: h-9 w-9 border-primary border-slate-400 text-slate-400 hover:bg-primary hover:text-white"
               ><svg
                 role="img"
                 width="20"
@@ -1073,7 +1115,7 @@
             <a
               href="https://www.linkedin.com/in/rizqi-ramadhanianto-b09558a8/"
               target="_blank"
-              class="hover: mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-primary border-slate-400 text-slate-400 hover:bg-primary hover:text-white"
+              class="flex items-center justify-center mr-3 border rounded-full hover: h-9 w-9 border-primary border-slate-400 text-slate-400 hover:bg-primary hover:text-white"
               ><svg
                 role="img"
                 width="25"
@@ -1088,7 +1130,7 @@
             ></a>
           </div>
 
-          <p class="text-center text-sm font-medium text-slate-500">
+          <p class="text-sm font-medium text-center text-slate-500">
             Created by :
             <a
               href="https://www.instagram.com/rizqirmdhani/"
